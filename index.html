@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Missão Cachos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- TELA INICIAL -->
+        <section id="inicio" class="tela">
+            <h1>✨ Missão Cachos ✨</h1>
+
+            <p class="descricao">
+                Em 2049, uma especialista em cabelos cacheados precisa descobrir
+                os melhores cuidados para manter seus cachos saudáveis,
+                definidos e cheios de vida.
+            </p>
+
+            <p>
+                Você está pronta para testar seus conhecimentos?
+            </p>
+
+            <button onclick="iniciarJogo()">Começar missão 💗</button>
+        </section>
+
+        <!-- PERGUNTA -->
+        <section id="quiz" class="tela escondido">
+
+            <p id="progresso"></p>
+
+            <h2 id="pergunta"></h2>
+
+            <div id="alternativas"></div>
+
+        </section>
+
+        <!-- RESULTADO -->
+        <section id="resultado" class="tela escondido">
+
+            <h1>🎉 Missão concluída!</h1>
+
+            <p id="mensagemResultado"></p>
+
+            <p id="pontuacao"></p>
+
+            <button onclick="jogarNovamente()">
+                Jogar novamente 🔄
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
